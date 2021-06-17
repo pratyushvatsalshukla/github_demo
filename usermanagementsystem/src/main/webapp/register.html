@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<style>
+  #table{
+    text-align:center;
+     margin-left: auto;
+     margin-right: auto;
+  }
+</style>
+</head>
+<body>
+
+<form action="./reg" name="f1" method="post">
+        
+        <h1 style="text-align:center">Registration Form</h1>
+        <table id="table">
+            <tr>
+            <td> <label for="name">Name</label></td>
+            <td><input type="text" name="name" placeholder="Name"></td>
+            </tr>
+            
+             <tr>
+            <td><label for="pwd">Password : </label></td>
+			<td><input type="password" name="pwd" placeholder="Password"></td>
+            </tr>
+             <tr>
+            <td><label for="em">email </label></td>
+            <td><input type="Email" name="em" placeholder="Email"></td>
+            </tr>
+             <tr>
+            <td><label for="ph">Mobile </label></td>
+            <td><input type="tel" name="ph" placeholder="Phone No."></td>
+            </tr>
+            <tr>
+               <td><br> <input type="submit" value="Register" id="Submit"></td>
+               <td><br> <input type="submit" value="Cancel" id="Cancel"></td>
+            </tr>
+            
+        </table>
+    </form>
+    </body>
+</html>
